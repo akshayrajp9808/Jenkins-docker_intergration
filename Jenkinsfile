@@ -1,4 +1,5 @@
 node{
+    agent any
     stage ('scm checkout') {
     git 'https://github.com/spring-petclinic/spring-petclinic-rest.git'
     }
